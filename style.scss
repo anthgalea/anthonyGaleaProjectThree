@@ -1,0 +1,32 @@
+/*SASS EXAMPLE - DEV ED
+
+
+
+$button: darkgray;
+
+@mixin flexCenter($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@import "./header";
+ 
+header {
+
+    @include flexCenter(column);
+
+    background: $button;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button {
+        background: lightyellow;
+        &::after {
+            background: red;
+            content: "hellooo";
+        }
+    }
+}*/
